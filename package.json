@@ -1,0 +1,27 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "John Enderson personal homepage and blog",
+  "main": "index.js",
+  "scripts": {
+    "dev": "hugo server --minify -D -E -F",
+    "stage": "hugo server --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnenderson/homepage.git"
+  },
+  "keywords": [
+    "homepage",
+    "blog"
+  ],
+  "author": "John Enderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnenderson/homepage/issues"
+  },
+  "homepage": "https://github.com/johnenderson/homepage#readme",
+  "dependencies": {
+    "@iamtraction/google-translate": "^2.0.1"
+  }
+}
