@@ -16,16 +16,16 @@ name = "Projetos"
 pageRef = "projects"
 weight = 30
 
-[[main]]
-name = "Currículo"
-pageRef = "resume"
-weight = 40
-
-[[main]]
-identifier = "music"
-name = "Música"
-pageRef = "music"
-weight = 50
+#[[main]]
+#name = "Currículo"
+#pageRef = "resume"
+#weight = 40
+#
+#[[main]]
+#identifier = "music"
+#name = "Música"
+#pageRef = "music"
+#weight = 50
 
 # -- Footer Menu --
 

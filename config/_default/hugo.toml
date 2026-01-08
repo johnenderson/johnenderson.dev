@@ -2,12 +2,12 @@
 # Refer to the theme docs for more details about each of these parameters.
 
 theme = "blowfish"
-baseURL = "https://n9o.xyz/"
+baseURL = "https://johnenderson.dev"
 defaultContentLanguage = "pt-br"
 # disableLanguages = ['pt-pt']
 
 enableRobotsTXT = true
-summaryLength = 30
+summaryLength = 0
 
 buildDrafts = false
 buildFuture = false
@@ -18,75 +18,52 @@ hasCJKLanguage = true
 #googleAnalytics = "G-R94R4YKFEC"
 
 [pagination]
-pagerSize = 27
-
-[params.author]
-name = "John Enderson"
-image = "img/bw_avatar.jpg"
-headline = "Software Engineer @ Itau"
-subtitle = "🧠 Builder · AI, agents, infra · OSS · Mentor & startup advisor"
-bio = "Software Engineer @ Itau"
-links = [
-    # { email = "mailto:nuno@n9o.xyz" },
-    #{ rss = "https://n9o.xyz/index.xml" },
-    { linkedin = "https://www.linkedin.com/in/john-enderson-8139bb2a/" },
-    { x-twitter = "https://twitter.com/johnenderson" },
-    { github = "https://github.com/johnenderson" },
-    #{ medium = "https://medium.com/@johnenderson" },
-    #{ hackernews = "https://news.ycombinator.com/user?id=johnenderson"},
-    #{ mastodon = "https://masto.ai/@johnenderson" },
-    { instagram = "https://instagram.com/johnenderson" },
-    #{ goodreads = "http://goodreads.com/johnenderson" },
-    #{ reddit = "https://reddit.com/user/johnenderson" },
-    #{ telegram = "https://t.me/johnenderson" },
-    #{ music = "/music" },
-]
-
+    pagerSize = 27
 
 [imaging]
-anchor = 'Center'
+    anchor = 'Center'
 
 [taxonomies]
-tag = "tags"
-category = "categories"
-author = "authors"
-series = "series"
+    tag = "tags"
+    category = "categories"
+    author = "authors"
+    series = "series"
 
 [sitemap]
-changefreq = 'daily'
-filename = 'sitemap.xml'
-priority = 0.5
+    changefreq = 'daily'
+    filename = 'sitemap.xml'
+    priority = 0.5
 
 [outputs]
-home = ["HTML", "RSS", "JSON"]
+    home = ["HTML", "RSS", "JSON"]
 
 [related]
-threshold = 1
-includeNewer = true
-toLower = true
+    threshold = 1
+    includeNewer = true
+    toLower = true
 
 [[related.indices]]
-name = "tags"
-weight = 100
+    name = "tags"
+    weight = 100
 
 [[related.indices]]
-name = "categories"
-weight = 100
+    name = "categories"
+    weight = 100
 
 [[related.indices]]
-name = "series"
-weight = 50
+    name = "series"
+    weight = 50
 
 [[related.indices]]
-name = "authors"
-weight = 10
+    name = "authors"
+    weight = 10
 
 [[related.indices]]
-name = "date"
-weight = 0
+    name = "date"
+    weight = 0
 
 [[related.indices]]
-applyFilter = true
-name = 'fragmentrefs'
-type = 'fragments'
-weight = 10
+    applyFilter = true
+    name = 'fragmentrefs'
+    type = 'fragments'
+    weight = 10

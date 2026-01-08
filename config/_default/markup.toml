@@ -3,11 +3,14 @@
 
 [goldmark]
 [goldmark.renderer]
-unsafe = true
+    # We have legit HTML in one of our articles
+    # and need the following override.
+    unsafe = true
 
 [highlight]
-noClasses = false
+    noClasses = false
 
 [tableOfContents]
-startLevel = 2
-endLevel = 4
+    startLevel = 2
+    endLevel = 4
+

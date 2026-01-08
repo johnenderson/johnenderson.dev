@@ -1,14 +1,34 @@
 languageCode = "pt-br"
 languageName = "Português Brasil"
-weight = 2
-title = "JE"
+weight = 1
+title = "johnenderson.dev"
 
 [params]
-displayName = "Português Brasil"
-isoCode = "pt-BR"
-rtl = false
-dateFormat = "02 de January de 2006"
-logo = "img/logo_inverted@0.25x.png"
-secondaryLogo = "img/logo@0.25x.png"
-description = "JE | John Enderson"
-#copyright = "Copy, _right?_ :thinking_face:"
+    displayName = "Português Brasil"
+    isoCode = "pt-BR"
+    rtl = false
+    dateFormat = "02 de January de 2006"
+    logo = ""
+    secondaryLogo = ""
+
+[params.author]
+    name = "John Enderson"
+    image = "img/bw_avatar.jpg"
+    headline = "Software Engineer @ Itau"
+    subtitle = "🧠 Builder · AI, agents, infra · OSS · Mentor & startup advisor"
+    bio = "Software Engineer @ Itau"
+    links = [
+        # { email = "mailto:nuno@n9o.xyz" },
+        #{ rss = "https://n9o.xyz/index.xml" },
+        { linkedin = "https://www.linkedin.com/in/john-enderson-8139bb2a/" },
+        { x-twitter = "https://twitter.com/johnenderson" },
+        { github = "https://github.com/johnenderson" },
+        #{ medium = "https://medium.com/@johnenderson" },
+        #{ hackernews = "https://news.ycombinator.com/user?id=johnenderson"},
+        #{ mastodon = "https://masto.ai/@johnenderson" },
+        { instagram = "https://instagram.com/johnenderson" },
+        #{ goodreads = "http://goodreads.com/johnenderson" },
+        #{ reddit = "https://reddit.com/user/johnenderson" },
+        #{ telegram = "https://t.me/johnenderson" },
+        #{ music = "/music" },
+    ]
